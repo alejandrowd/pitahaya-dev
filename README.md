@@ -1,2 +1,2 @@
 # pitahaya-dev
-solo frontend @
+solo frontend @@
