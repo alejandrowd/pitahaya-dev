@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>pitahaya - Agencia digital -</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro:400,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/pitahaya.css">
+  <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+
+</head>
+
+<body class="home">
+
+  <script src="js/three.js"></script>
+  <script src="js/WebGL.js"></script>
+  <script src="js/stats.min.js"></script>
+  <script src="js/dat.gui.min.js"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+
+
+  <i class="icon-menu burger-button" id="burgerMenu"></i>
+  <header class="header" id="myHeader">
+    <div class="wrapper">
+
+      <figure class="logo">
+        <img class="big-screen" src="images/brand/isotipo-pitahaya-color.svg" alt="pitahaya - Digital agency" width="60px" height="60px" class="scale-1-3" id="nav-logo"  >
+        <img class="small-screen" src="images/brand/logotipo-pitahaya-white-footer.svg" alt="pitahaya - Digital agency" width="150px" class="scale-1-3" id="nav-logo"  >
+      </figure>
+
+      <nav class="menu">
+        <ul>
+          <li><a class="link-effect"  href="#hero">Inicio</a></li>
+          <li><a id="agenciaMenu" class="link-effect"  href="#agencia">Agencia</a></li>
+          <li><a id="serviciosMenu" class="link-effect"  href="#servicios">Servicios</a></li>
+          <li><a class="link-effect"  href="#portfolio">Clientes</a></li>
+          <li><a class="link-effect"  href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="wrapper">
+
+      <video autoplay muted loop id="myVideo">
+        <source src="videos/timelapse_sunset.mp4" type="video/mp4">
+      </video>
+    <h1><strong>pitahaya</strong> es una agencia especializada en <strong>branding</strong>, <strong>diseño</<strong></strong>, <strong>marketing digital</strong> y <strong>desarrollo web</strong>.</h1>
+    <div class=lines>
+      <span class=side-lines></span>
+      <span class=bottom-lines></span>
+    </div>
+    <span class=logo>
+      <img class="logo-brand" src="images/brand/logotipo-pitahaya-white-nuevo-2.svg" alt="pitahaya - Agencia digital" width="210px">
+      <img class="isotipo-resp" src="images/brand/isotipo-pitahaya-color.svg" alt="pitahaya - Digital agency" width="35px" height="35px" id="nav-logo">
+
+    </span>
+  </div>
+  </section>
+
+  <section class="agencia" id="agencia">
+
+    <div class="metodologia-bg">
+    <div class="wrapper">
+
+    <div class="metodologia-container">
+
+      <div class="item metodologia-pq-nosotros" data-sal-duration="300" data-sal="slide-down" data-sal-delay="200" data-sal-easing="ease-out-bounce">
+        <h2>¿Por qué nosotros?</h2>
+        <p>We believe that great things come from being inspired. We combine branding, digital marketing, web design and web development
+          to build and refine your digital communication channels and business tools, so you can provide the best experience to your clients.
+          From big brands to inspiring startups, we are your business partner!</p>
+        <!-- <a href="/en/about-us" title="Learn more about aparticula - Digital agency" class="btn home-btn"><span>Conoce más</span></a> -->
+      </div>
+
+      <div class="item metodologia-description" data-sal-duration="1200" data-sal="slide-down" data-sal-delay="200" data-sal-easing="ease-out-bounce">
+        <h3>Nuestra Metodología</h3>
+        <h1>Design thinking by <strong>pitahaya.</strong></h1>
+        <p>Para poder conectar con las personas, necesitamos entenderlas, saber qué es realmente lo que necesitan, les gusta o están buscando. Necesitamos comenzar a formar parte de sus vidas. Para conseguirlo, hemos creado un proceso propio basado en metodologías como el <strong> Design Thinking,</strong> que nos permite realizar y encontrar la solución más adecuada, así como testeada y replanteada constantemente.</p>
+      </div>
+
+      <div class="item metodologia-slideshow" data-sal-duration="1200" data-sal="slide-down" data-sal-delay="200" data-sal-easing="ease-out-bounce">
+
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img  src='images/metodologia-0.png' style='width: 100%;' alt="Design thinking by pitahaya"/>
+              <h4 class="titulo-slider">Design thinking by pitahaya</h4>
+              <p class="descripcion-slider">Trabajamos bajo un proceso propio basado en metodologías como Design Thinking y Agile, que nos permite analizar, encontrar, y testear la solución más adecuada para cada negocio en particular.</p>
+          </div>
+
+          <div class="mySlides fade">
+            <img  src='images/metodologia-new-1.png' style='width: 100%;' alt="Design thinking by pitahaya"/>
+            <h4 class="titulo-slider">Descubrir</h4>
+            <p class="descripcion-slider">Nos incorporamos en el contexto del cliente para entender el panorama actual, problemas e hipótesis. Además estudiamos el contexto del usuario o consumidor final para entender su comportamiento y necesidades.</p>
+          </div>
+
+          <div class="mySlides fade">
+            <img  src='images/metodologia-new-2.png' style='width: 100%;' alt="Design thinking by pitahaya"/>
+            <h4 class="titulo-slider">Definir</h4>
+            <p class="descripcion-slider">Entendemos, interpretamos y sintetizamos lo recogido en la etapa de “Descubrir”, y lo transformamos en oportunidades donde nacen las ideas y conceptos de valor tanto para nuestros clientes como para el usuario o consumidor final.</p>
+          </div>
+
+          <div class="mySlides fade">
+            <img  src='images/metodologia-new-3.png' style='width: 100%;' alt="Design thinking by pitahaya"/>
+            <h4 class="titulo-slider">Comprobar</h4>
+            <p class="descripcion-slider">Las ideas y conceptos son cuestionadas, criticadas y validadas. Creamos prototipos rápidos y los ponemos a prueba en el contexto donde fueron descubiertos. Retrocedemos, replanteamos, avanzamos y mejoramos hacia un concepto cada vez más aterrizado.</p>
+          </div>
+
+          <div class="mySlides fade">
+            <img  src='images/metodologia-new-4.png' style='width: 100%;' alt="Design thinking by pitahaya"/>
+            <h4 class="titulo-slider">Desarrollar</h4>
+            <p class="descripcion-slider">La dirección definida se comienza a desarrollar, haciéndose cada vez más real. Una vez terminada, la ponemos a prueba, para luego darle los últimos toques y tener una propuesta concreta.</p>
+          </div>
+
+          <div class="mySlides fade">
+            <img  src='images/metodologia-new-5.png' style='width: 100%;' alt="Design thinking by pitahaya"/>
+            <h4 class="titulo-slider">Despegar</h4>
+            <p class="descripcion-slider">Lo presentamos al usuario, lo lanzamos y medimos su impacto de acuerdo a los alcances definidos al inicio del proyecto. Es momento de "redescubrir" y entrar en un beta constante.</p>
+          </div>
+          <a class="prev" onclick='prevSlides(-1)'>&#10094;</a>
+          <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+        </div>
+
+        <div class="dots" style='text-align: center;'>
+          <span class="dot" onclick='currentSlide(1)'></span>
+          <span class="dot" onclick='currentSlide(2)'></span>
+          <span class="dot" onclick='currentSlide(3)'></span>
+          <span class="dot" onclick='currentSlide(4)'></span>
+          <span class="dot" onclick='currentSlide(5)'></span>
+          <span class="dot" onclick='currentSlide(6)'></span>
+        </div>
+
+
+      </div> <!-- end metodologia-slideshow -->
+
+      <div class="item metodologia-que-hacemos" data-sal-duration="1200" data-sal="slide-down" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+        <h3>¿Qué hacemos?</h3>
+        <h1>Ayudamos a nuestros clientes a acelerar su <strong>crecimiento.</strong></h1>
+        <p>Creamos, transformamos y optimizamos la experiencia del cliente / usuario a través de la <strong>tecnología</strong> y el <strong>diseño de contenidos, productos y servicios digitales.</strong>  Entendemos que un proceso de transformación digital debe activarse desde distintos frentes de la compañía; en donde el Customer Experience debe ser el eje sobre el cual se transforman los procesos operacionales y se modifica el modelo de negocio.</p>
+      </div>
+
+
+    </div> <!-- end meteodologia container -->
+  </div> <!-- wrapper -->
+  </div>
+
+
+
+
+  </div>
+
+  </section>
+
+  <section>
+  <div class="mobile-slider">
+
+    <div class="slider">
+        <img src="images/mobile/slider-metodologia1.jpg" alt="">
+        <h4 class="top-center-mobile-text bg-mobile-text">Design thinking by pitahaya</h4>
+        <p class="center-mobile-text bg-mobile-text">Trabajamos bajo un proceso propio basado en metodologías
+           como Design Thinking y Agile, que nos permite analizar, encontrar, y testear
+          la solución más adecuada para cada negocio en particular.</p>
+    </div>
+
+    <div class="slider">
+        <img src="images/mobile/slider-metodologia2.jpg" alt="">
+        <h4 class="top-center-mobile-text bg-mobile-text">Descubrir</h4>
+        <p class="center-mobile-text bg-mobile-text">Nos incorporamos en el contexto del cliente para entender el panorama actual, problemas e hipótesis. Además estudiamos el contexto del usuario o consumidor final para entender su comportamiento y necesidades.</p>
+    </div>
+
+    <div class="slider">
+        <img src="images/mobile/slider-metodologia3.jpg" alt="">
+        <h4 class="top-center-mobile-text bg-mobile-text">Definir</h4>
+        <p class="center-mobile-text bg-mobile-text">Entendemos, interpretamos y sintetizamos lo recogido en la etapa de “Descubrir”, y lo transformamos en oportunidades donde nacen las ideas y conceptos de valor tanto para nuestros clientes como para el usuario o consumidor final.</p>
+    </div>
+  </section>
+
+  <section class="servicios" id="servicios">
+    <div class="servicios-bg" id="serviciosFloating">
+      <div class="wrapper">
+            <div class="servicios-container">
+
+
+                  <div class="serv-item servicio-title">
+                    <h1>Nuestros <strong>servicios</strong></h1>
+                    <h3>Escuchamos, pensamos, creamos y te conectamos a tu audiencia</h3>
+                  </div>
+                  <div class="serv-item opcion servicio-estrategico" onclick='currentServicio(1)'>
+                    <h4>Servicio Estratégico</h4>
+                  </div>
+                  <div class="serv-item opcion servicio-creativo" onclick='currentServicio(2)'>
+                    <h4>Servicios de creatividad</h4>
+                  </div>
+                  <div class="serv-item opcion servicio-desarrollo" onclick='currentServicio(3)'>
+                    <h4>Servicios de desarrollo</h4>
+                  </div>
+
+                  <!-- responsive -->
+                  <div class="servicios-responsive estrategy-resp">
+                    <img src="images/estrategy-icon-movil.png" alt="Servicio estratégico">
+                    <h4>Servicio Estratégico</h4>
+                    <p>Diseñamos un plan basado en estrategias, con el propósito de alcanzar objetivos establecidos, apoyados en un pensamiento analítico con destrezas técnicas y creativas.
+                      Proporcionamos diversos conceptos a través de nuestro proceso PithayaThinking.</p>
+                      <div class="lista-tareas">
+                      <p>
+                        <span>Inbound marketing</span>
+                        <span>Social media</span>
+                        <span>SEO / SEM</span>
+                        <span>Diseño de experiencia de usuario</span>
+                      </p>
+                      </div>
+                  </div>
+
+                  <div class="servicios-responsive creative-resp">
+                    <img src="images/creative-icon-movil.png" alt="Servicio de creatividad">
+                    <h4>Servicio de creatividad</h4>
+                    <p>Construimos una relación de confianza y fidelidad entre tu marca y cliente, desarrollando un concepto creativo
+                       que genera una experiencia personal y emocional. Transformando tu marca y su relación con la sociedad.</p>
+                      <div class="lista-tareas">
+                       <p>
+                         <span>Identidad de marca</span>
+                         <span>Diseño digital / impresión</span>
+                         <span>Video / fotografía</span>
+                         <span>UI / UX</span>
+                       </p>
+                     </div>
+                  </div>
+                  <div class="servicios-responsive development-resp">
+                    <img src="images/desarrollo-icon-movil.png" alt="Servicio de desarrollo">
+                    <h4>Servicio de desarrollo</h4>
+                    <p>Innovamos en el desarrollo tecnólogico, optimizando y maximizando tu negocio actual, para poder identificar
+                       oportunidades de innovación combinando creatividad y tecnología. Te ofrecemos soluciones escalables que ayudarán
+                       a tu crecimiento.</p>
+                      <div class="lista-tareas">
+                       <p>
+                         <span>Web</span>
+                         <span>Aplicaciones móviles</span>
+                         <span>E-commerce</span>
+                       </p>
+                     </div>
+                  </div>
+                   <!-- fin responsive -->
+
+
+                  <div class="serv-item output-servicios fade">
+                    <h5>Sevicio Estratégico</h5>
+                    <p>Diseñamos un plan basado en estrategias, con el propósito de alcanzar objetivos establecidos, apoyados en un pensamiento analítico con destrezas técnicas y creativas.
+                      Proporcionamos diversos conceptos a través de nuestro proceso PithayaThinking.</p>
+                      <div class="lista-tareas">
+                      <p>
+                        <span>Inbound marketing</span>
+                        <span>Social media</span>
+                        <span>SEO / SEM</span>
+                        <span>Diseño de experiencia de usuario</span>
+                      </p>
+                      </div>
+                    <a href="#contacto" title="Learn more about pitahaya - Digital agency" class="btn2 home-btn"><span>Conoce más</span></a>
+                  </div>
+
+                  <div class="output-servicios fade">
+                    <h5>Sevicios de creatividad</h5>
+                    <p>Construimos una relación de confianza y fidelidad entre tu marca y cliente, desarrollando un concepto creativo
+                       que genera una experiencia personal y emocional. Transformando tu marca y su relación con la sociedad.</p>
+                      <div class="lista-tareas">
+                       <p>
+                         <span>Identidad de marca</span>
+                         <span>Diseño digital / impresión</span>
+                         <span>Video / fotografía</span>
+                         <span>UI / UX</span>
+                       </p>
+                     </div>
+                    <a href="#contacto" title="Learn more about pitahaya - Digital agency" class="btn2 home-btn"><span>Conoce más</span></a>
+                  </div>
+
+                  <div class="output-servicios fade">
+                    <h5>Sevicios de desarrollo</h5>
+                    <p>Innovamos en el desarrollo tecnólogico, optimizando y maximizando tu negocio actual, para poder identificar
+                       oportunidades de innovación combinando creatividad y tecnología. Te ofrecemos soluciones escalables que ayudarán
+                       a tu crecimiento.</p>
+                      <div class="lista-tareas">
+                       <p>
+                         <span>Web</span>
+                         <span>Aplicaciones móviles</span>
+                         <span>E-commerce</span>
+                       </p>
+                     </div>
+                    <a href="#contacto" title="Learn more about pitahaya - Digital agency" class="btn2 home-btn"><span>Conoce más</span></a>
+                  </div>
+                </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="portfolio" id="portfolio">
+  <div class="portfolio-bg">
+    <div class="wrapper">
+
+
+        <div class="portfolio-header" data-sal-duration="1200" data-sal="fade" data-sal-delay="300" data-sal-easing="ease-out-bounce" >
+          <h2 class="title-portfolio-header"><strong>Clientes</strong> que confian en nosotros</h2>
+          <p class="message-portfolio-header">¡Disfrutamos <strong>crear!</strong> </p>
+          <p class="description-portfolio-header">Ofrecemos proyectos de óptima calidad cuidando los aspectos fundamentales que representan la imagen y marca de nuestros clientes.</p>
+        </div>
+
+
+
+      <div id="myBtnContainer" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+        <button class="btn-portfolio active-tab fuente" onclick="filterSelection('all')"> Todos</button>
+        <button class="btn-portfolio fuente" onclick="filterSelection('development')"> Web / App</button>
+        <button class="btn-portfolio fuente" onclick="filterSelection('branding')"> Branding</button>
+        <button class="btn-portfolio fuente" onclick="filterSelection('ar')"> Realidad Aumentada</button>
+      </div>
+
+        <div class="row">
+
+          <div class="category-portfolio development" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+              <img src="images/mountains.jpg" alt="Mountains" style="width:100%">
+              <h4>Mountains</h4>
+              <button id="btnModal">Ver más</button>
+            </div>
+          </div>
+
+            <div class="modal" id="modal">
+              <div class="modal-content">
+                <span class="close" id="close">&times;</span>
+
+                <p>Algo de texto en el modal..</p>
+              </div>
+            </div>
+
+
+
+          <div class="category-portfolio development" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+            <img src="images/lights.jpg" alt="Lights" style="width:100%">
+              <h4>Lights</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="category-portfolio development" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+            <img src="images/nature.jpg" alt="Nature" style="width:100%">
+              <h4>Forest</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="category-portfolio branding" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+              <img src="images/cars1.jpg" alt="Car" style="width:100%">
+              <h4>Retro</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="category-portfolio branding" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+            <img src="images/cars2.jpg" alt="Car" style="width:100%">
+              <h4>Fast</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="category-portfolio branding" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+            <img src="images/cars3.jpg" alt="Car" style="width:100%">
+              <h4>Classic</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="category-portfolio ar" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+              <img src="images/people1.jpg" alt="Car" style="width:100%">
+              <h4>Girl</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="category-portfolio ar" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+            <img src="images/people2.jpg" alt="Car" style="width:100%">
+              <h4>Man</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+          <div class="category-portfolio ar" data-sal-duration="1200" data-sal="fade" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+            <div class="content">
+            <img src="images/people3.jpg" alt="Car" style="width:100%">
+              <h4>Woman</h4>
+              <p>Lorem ipsum dolor..</p>
+            </div>
+          </div>
+
+        </div>
+
+    </div>
+  </div>
+  </section>
+
+
+<section class="contact-pitahaya" id="contacto">
+  <div class="contact-bg">
+    <div class="wrapper">
+      <div class="contact-container">
+
+        <div class="item-contact contact-header">
+          <h2>¿Cuándo nos juntamos?</h2>
+          <p>¡Hola y gracias por llegar hasta aquí! Si deseas mayor información de nuestros Servicios o una Propuesta Económica llena el siguiente formulario ¡Nosotros nos pondremos en contacto contigo!</p>
+        </div>
+
+        <div class="item-contact contact-left">
+          <form action="" class="form">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <div class="mensaje-formulario">
+
+            <textarea name="mensaje" placeholder="Mensaje" rows="20" ></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+
+        <div class="item-contact contact-right">
+          <div id="map"></div>
+          <div class="contact-details">
+            <div class="telefono">
+              <i class="fas fa-mobile-alt fa-2x"></i>
+            </div>
+            <div class="email">
+              <i class="far fa-envelope-open fa-2x"></i>
+            </div>
+            <div class="direccion">
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+            </div>
+
+            <div class="redes-pitahaya">
+              <i class="fab fa-facebook-square fa-3x"></i>
+              <i class="fab fa-instagram fa-3x"></i>
+              <i class="fab fa-youtube fa-3x"></i>
+              <i class="fab fa-linkedin-in fa-3x"></i>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+<footer class="footer">
+<div class="wrapper">
+  <div class="content-footer" data-sal-duration="1200" data-sal="fade" data-sal-delay="400" data-sal-easing="ease-out-bounce">
+    <p>© 2019 pitahaya - Agencia digital. All Rights Reserved | Made With <i class="fa fa-heart" aria-hidden="true"></i> by <img src="images/brand/logotipo-pitahaya-white-footer.svg" width="80" height="" alt="pitahaya agencia digital"></p>
+  </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script src="js/siema.min.js" charset="utf-8"></script>
+<script>
+  const carousel = new Siema({
+    selector: '.mobile-slider',
+    duration: 250,
+    loop: true,
+  });
+  setInterval(() => carousel.next(), 8000)
+</script>
+
+  <script>
+
+  console.log('tranqui viejo, todo está bien')
+
+  const menu = document.querySelector('.menu')
+  console.log(menu)
+  const burgerButton = document.querySelector('#burgerMenu')
+  console.log(burgerButton)
+
+
+  burgerButton.addEventListener('click', showHide)
+
+  function showHide(){
+    if (menu.classList.contains('is-active')){
+      menu.classList.remove('is-active')
+
+    } else{
+      menu.classList.add('is-active')
+    }
+  }
+
+  </script>
+
+
+
+
+
+  <script>
+
+  if (screen.width >= 1024) {
+// download complicated script
+// swap in full-source images for low-source ones
+
+
+    if ( WEBGL.isWebGLAvailable() === false ) {
+      document.body.appendChild( WEBGL.getWebGLErrorMessage() );
+    }
+    var camera, scene, renderer, stats, materials = [], parameters;
+    var mouseX = 0, mouseY = 0;
+    var windowHalfX = window.innerWidth / 2;
+    var windowHalfY = window.innerHeight / 2;
+    init();
+    animate();
+    function init() {
+      camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 2000 );
+      camera.position.z = 1000;
+      scene = new THREE.Scene();
+      scene.fog = new THREE.FogExp2( 0x000000, 0.0008 );
+      var geometry = new THREE.BufferGeometry();
+      var vertices = [];
+      var textureLoader = new THREE.TextureLoader();
+      var sprite1 = textureLoader.load( 'images/code_icon-01.png' );
+      var sprite2 = textureLoader.load( 'images/audio-icon-01.png' );
+      var sprite3 = textureLoader.load( 'images/3d-icon-01.png' );
+      var sprite4 = textureLoader.load( 'images/image-icon.png' );
+      var sprite5 = textureLoader.load( 'images/video-icon.png' );
+      var sprite6 = textureLoader.load( 'images/writing-icon-01.png' );
+      for ( var i = 0; i < 2000; i ++ ) {
+        var x = Math.random() * 3000 - 2000;
+        var y = Math.random() * 3000 - 2000;
+        var z = Math.random() * 3000 - 2000;
+        vertices.push( x, y, z );
+      }
+      geometry.addAttribute( 'position', new THREE.Float32BufferAttribute( vertices, 3) );
+      parameters = [
+        [[ 1.0, 0.2, 0.5 ], sprite2, 10 ],
+        [[ 1.0, 0.2, 0.5], sprite3, 12 ],
+        [[ 1.0, 0.2, 0.5 ], sprite1, 20],
+        [[ 1.0, 0.2, 0.5 ], sprite5, 16 ],
+        [[ 1.0, 0.2, 0.5 ], sprite4, 18 ],
+        [[ 1.0, 0.2, 0.5 ], sprite6, 14 ]
+      ];
+      for ( var i = 0; i < parameters.length; i ++ ) {
+        var color = parameters[ i ][ 0 ];
+        var sprite = parameters[ i ][ 1 ];
+        var size = parameters[ i ][ 2 ];
+        materials[ i ] = new THREE.PointsMaterial( { size: size, map: sprite, blending: THREE.AdditiveBlending, depthTest: false, transparent: true } );
+        materials[ i ].color.setHSL( color[ 0 ], color[ 1 ], color[ 2 ] );
+        var particles = new THREE.Points( geometry, materials[ i ] );
+        particles.rotation.x = Math.random() * 50;
+        particles.rotation.y = Math.random() * 50;
+        particles.rotation.z = Math.random() * 50;
+        scene.add( particles );
+      }
+      //
+      renderer = new THREE.WebGLRenderer({ alpha:true });
+      renderer.setClearColor( 0x000000, 0 );
+      renderer.setPixelRatio( window.devicePixelRatio );
+      renderer.setSize( window.innerWidth, window.innerHeight );
+      document.getElementById( 'serviciosFloating' ).appendChild( renderer.domElement );
+      //
+      // stats = new Stats();
+      // document.body.appendChild( stats.dom );
+      //
+      var gui = new dat.GUI();
+      var params = {
+        texture: true
+      };
+      gui.add( params, 'texture' ).onChange( function ( value ) {
+        for ( var i = 0; i < materials.length; i ++ ) {
+          materials[ i ].map = ( value === true ) ? parameters[ i ][ 1 ] : null;
+          materials[ i ].needsUpdate = true;
+        }
+      } );
+      gui.open();
+      document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+      document.addEventListener( 'touchstart', onDocumentTouchStart, false );
+      document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+      //
+      window.addEventListener( 'resize', onWindowResize, false );
+    }
+    function onWindowResize() {
+      windowHalfX = window.innerWidth / 2;
+      windowHalfY = window.innerHeight / 2;
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize( window.innerWidth, window.innerHeight );
+    }
+    function onDocumentMouseMove( event ) {
+      mouseX = event.clientX - windowHalfX;
+      mouseY = event.clientY - windowHalfY;
+    }
+    function onDocumentTouchStart( event ) {
+      if ( event.touches.length === 1 ) {
+        event.preventDefault();
+        mouseX = event.touches[ 0 ].pageX - windowHalfX;
+        mouseY = event.touches[ 0 ].pageY - windowHalfY;
+      }
+    }
+    function onDocumentTouchMove( event ) {
+      if ( event.touches.length === 1 ) {
+        event.preventDefault();
+        mouseX = event.touches[ 0 ].pageX - windowHalfX;
+        mouseY = event.touches[ 0 ].pageY - windowHalfY;
+      }
+    }
+    //
+    function animate() {
+      requestAnimationFrame( animate );
+      render();
+      // stats.update();
+    }
+    function render() {
+      var time = Date.now() * 0.00005;
+      camera.position.x += ( mouseX - camera.position.x ) * 0.05;
+      camera.position.y += ( - mouseY - camera.position.y ) * 0.05;
+      camera.lookAt( scene.position );
+      for ( var i = 0; i < scene.children.length; i ++ ) {
+        var object = scene.children[ i ];
+        if ( object instanceof THREE.Points ) {
+          object.rotation.y = time * ( i < 4 ? i + 1 : - ( i + 1 ) );
+        }
+      }
+      for ( var i = 0; i < materials.length; i ++ ) {
+        var color = parameters[ i ][ 0 ];
+        var h = ( 360 * ( color[ 0 ] + time ) % 360 ) / 360;
+        materials[ i ].color.setHSL( h, color[ 1 ], color[ 2 ] );
+      }
+      renderer.render( scene, camera );
+    }
+    // else{
+    //   document.getElementById( 'serviciosFloating' ).style.display = 'none';
+    // }
+
+    }
+
+  </script>
+
+
+<script src="./node_modules/sal.js/dist/sal.js"></script>
+
+<script type="module">
+    import jump from './node_modules/jump.js/dist/jump.module.js';
+
+ sal({
+     // threshold: 1,
+    once: true,
+});
+
+    let agencia = document.getElementById('agenciaMenu');
+    let servicios = document.getElementById('serviciosMenu');
+    let portfolio = document.getElementById('portfolio');
+    let contactPitahaya = document.getElementById('contacto');
+
+    agencia.addEventListener('click', function (event) {
+        jump('#agencia', {
+
+        })
+    });
+
+    servicios.addEventListener('click', function (event) {
+        jump('.servicios', {
+            duration: 1000,
+            // easing: easeInOutQuad,
+            // offset: 100,
+        })
+    });
+
+
+    portfolio.addEventListener('click', function(event)
+    {
+      jump('.portfolio')
+    });
+
+    contactPitahaya.addEventListener('click', function(event)
+    {
+      jump('.contact-pitahaya')
+    });
+
+</script>
+
+<script>// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var location = {lat: -2.179955, lng: -79.913678};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 14, center: location});
+  // The marker, positioned at Uluru
+  // google.maps.event.addDomListener(window, 'load', initialize);
+  var marker = new google.maps.Marker({position: location, map: map});
+}
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL-LaogqPwdNIbYwoRyXYw1Mnd0be4ct4&callback=initMap">
+</script>
+<script src="js/portfolio.js" charset="utf-8"></script>
+<script src="js/modal.js" charset="utf-8"></script>
+
+
+
+
+</body>
+</html>
